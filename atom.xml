@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.anowbc.com/"/>
-  <updated>2020-08-08T14:34:26.529Z</updated>
+  <updated>2020-08-09T07:43:12.752Z</updated>
   <id>http://www.anowbc.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://www.anowbc.com/2020/08/08/hello-world/"/>
-    <id>http://www.anowbc.com/2020/08/08/hello-world/</id>
-    <published>2020-08-08T12:40:07.803Z</published>
-    <updated>2020-08-08T14:34:26.529Z</updated>
+    <title>搭建网站的随想随记</title>
+    <link href="http://www.anowbc.com/2020/08/06/da-jian-wang-zhan-de-sui-xiang-sui-ji/"/>
+    <id>http://www.anowbc.com/2020/08/06/da-jian-wang-zhan-de-sui-xiang-sui-ji/</id>
+    <published>2020-08-06T11:14:50.000Z</published>
+    <updated>2020-08-09T07:43:12.752Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,208 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;
+          &lt;p&gt;我也不知道为什么，会如此执着于这样一件事。我想要做什么呢？&lt;/p&gt;
+&lt;p&gt;其实我只是想做一个属于自己的，也可以跟人分享的小站。因为坚持了很久的事情，我不想说放弃就放弃。&lt;/p&gt;
+&lt;p&gt;大致是  
         
       
     
     </summary>
     
     
+      <category term="随笔" scheme="http://www.anowbc.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="技术心得" scheme="http://www.anowbc.com/tags/%E6%8A%80%E6%9C%AF%E5%BF%83%E5%BE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>腾讯云COS＋CDN优化部署静态网站</title>
+    <link href="http://www.anowbc.com/2020/08/06/teng-xun-yun-cos-cdn-you-hua-bu-shu-jing-tai-wang-zhan/"/>
+    <id>http://www.anowbc.com/2020/08/06/teng-xun-yun-cos-cdn-you-hua-bu-shu-jing-tai-wang-zhan/</id>
+    <published>2020-08-06T08:42:43.000Z</published>
+    <updated>2020-08-09T07:52:56.358Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前因：&quot;&gt;&lt;a href=&quot;#前因：&quot; class=&quot;headerlink&quot; title=&quot;前因：&quot;&gt;&lt;/a&gt;前因：&lt;/h2&gt;&lt;p&gt;在国外平台namesilo上买的域名即将到期了，国内访问个人网站的速度着实很慢。&lt;/p&gt;
+&lt;p&gt;于是就寻求能加速dns域名解析，优化网站访问速度的解决方式。&lt;/p&gt;
+&lt;h2 id=&quot;心路历程：&quot;&gt;&lt;a href=&quot;#心路历程：&quot; class=&quot;headerlink&quot; title=&quot;心路历程：&quot;&gt;&lt;/a&gt;心路历程：&lt;/h2&gt;&lt;h3 id=&quot;1-域名转移-amp-备案&quot;&gt;&lt;a href=&quot;#1-域名转移-amp-备案&quot; class=&quot;headerlink&quot; title=&quot;1.域名转移&amp;amp;备案&quot;&gt;&lt;/a&gt;1.域名转移&amp;amp;备案&lt;/h3&gt;&lt;p&gt;最先是将namesilo的dns解析地址转成阿里云的地址，然而速度还是一如既往得慢。&lt;/p&gt;
+&lt;p&gt;然后便考虑是否有加速访问的服务，就发现了cdn业务。&lt;/p&gt;
+&lt;p&gt;试过了cloudflare解析，我发现访问他们网站的速度都很慢。&lt;/p&gt;
+&lt;p&gt;我便放弃了国外的节点加速方案。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="网站" scheme="http://www.anowbc.com/categories/%E7%BD%91%E7%AB%99/"/>
+    
+    
+      <category term="部署" scheme="http://www.anowbc.com/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo网站基于Nginx部署至VPS教程</title>
+    <link href="http://www.anowbc.com/2019/07/12/vps-jiao-cheng/"/>
+    <id>http://www.anowbc.com/2019/07/12/vps-jiao-cheng/</id>
+    <published>2019-07-12T10:41:22.000Z</published>
+    <updated>2020-08-09T07:42:01.522Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&quot;1-准备工作&quot;&gt;&lt;a href=&quot;#1-准备工作&quot; class=&quot;headerlink&quot; title=&quot;1.准备工作&quot;&gt;&lt;/a&gt;1.准备工作&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;win10主机&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;VPS[云服务器]—Linux centOS 6 （&lt;a href=&quot;https://www.vultr.com/&quot;&gt;Vultr&lt;/a&gt;上购得）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SSH工具：（win版）Xshell 5&lt;a href=&quot;https://www.banwagongzw.com/55.html&quot;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;git工具：Git For Windows &lt;a href=&quot;https://gitforwindows.org/&quot;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;了解SSH，VPS，git ，SSL，Nginx 基本概念&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;熟悉vim &amp;amp; linux 基本指令操作&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&quot;2-Node-js安装-amp-环境配置&quot;&gt;&lt;a href=&quot;#2-Node-js安装-amp-环境配置&quot; class=&quot;headerlink&quot; title=&quot;2.Node.js安装&amp;amp;环境配置&quot;&gt;&lt;/a&gt;2.Node.js安装&amp;amp;环境配置&lt;/h2&gt;&lt;p&gt;在ssh工具上（Xshell5）输入命令行下载：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;wget https://nodejs.org/dist/v10.5.0/node-v10.5.0-linux-x64.tar.xz&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;tar -xvJf node-v10.5.0-linux-x64.tar.xz
+mv node-v10.5.0-linux-x64 node      #解压Node.js&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;mv node/ /usr/local/
+vim ~/.bash_profile               #配置环境变量&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;export NODE_HOME=/usr/local/node      #node路径
+export PATH=$NODE_HOME/bin:$PATH&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;source ~/.profile                  #更新配置&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;node -v                #查看node版本，测试是否配置正确&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/07/12/5d28657d71a9224575.png&quot; alt=&quot;1562921086196.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;ps：搭建hexo博客的时候windows端也需要安装Node.js跟git&lt;br&gt;可去&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt;官网或者命令行下载，至于安装和环境变量配置,这里就不详述了&lt;br&gt;&amp;nbsp;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="网站" scheme="http://www.anowbc.com/categories/%E7%BD%91%E7%AB%99/"/>
+    
+    
+      <category term="部署" scheme="http://www.anowbc.com/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux命令行</title>
+    <link href="http://www.anowbc.com/2019/07/12/linux/"/>
+    <id>http://www.anowbc.com/2019/07/12/linux/</id>
+    <published>2019-07-12T10:38:52.000Z</published>
+    <updated>2020-08-09T07:42:01.521Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3 id=&quot;问题-amp-解决&quot;&gt;&lt;a href=&quot;#问题-amp-解决&quot; class=&quot;headerlink&quot; title=&quot;问题&amp;amp;解决&quot;&gt;&lt;/a&gt;问题&amp;amp;解决&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&quot;卸载vmware-tools：&quot;&gt;&lt;a href=&quot;#卸载vmware-tools：&quot; class=&quot;headerlink&quot; title=&quot;卸载vmware tools：&quot;&gt;&lt;/a&gt;卸载vmware tools：&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/07/12/5d2865dc5de7c22108.png&quot; alt=&quot;1562893380401.png&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;：Linux  ( Ubuntu 18.04) 下卸载原有VMware失败？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;S&lt;/strong&gt; ：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;查找vmware-uninstall-tools.pl&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;find   /   -name  vmware-uninstall-tools.pl&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;进入vmware-uninstall-tools.pl所在目录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;卸载&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;perl vmware-uninstall-tools.pl&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;/ol&gt;
+    
+    </summary>
+    
+    
+      <category term="操作系统" scheme="http://www.anowbc.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="Linux" scheme="http://www.anowbc.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从0到1的旅程</title>
+    <link href="http://www.anowbc.com/2019/07/10/cong-0-dao-1-de-lu-cheng/"/>
+    <id>http://www.anowbc.com/2019/07/10/cong-0-dao-1-de-lu-cheng/</id>
+    <published>2019-07-10T12:10:57.000Z</published>
+    <updated>2020-08-09T07:42:01.523Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-初·心&quot;&gt;&lt;a href=&quot;#1-初·心&quot; class=&quot;headerlink&quot; title=&quot;1.初·心&quot;&gt;&lt;/a&gt;1.初·心&lt;/h2&gt;&lt;p&gt;至此，我搭建个人网站的初步计划也算是告一段落了。&lt;/p&gt;
+&lt;p&gt;有得有失吧，学习过程不能说是很高效，但是也算有所收获，也不枉数日的付出。至少让我对github，对命令行，对代码的配置，有了一定的认识跟理解。其实也就是瞎折腾，能鼓捣出一个像样的东西，让他们串连起来，就很是满足了呢。&lt;/p&gt;
+&lt;p&gt;打从一开始，对个人博客搭建就有所想法，却迟迟不付诸行动。假期刚至，大三下的课程也就此完结，没有了课业的负担，整个人也变得散漫起来，想学什么东西却不知从何学起，于是就想，定个目标吧。先把之前的想法实践起来，当个小项目一样好好做完，就好了。没想到，还真就成了。&lt;/p&gt;
+&lt;p&gt;下面可以谈谈我在搭建过程中遇到的一些磕磕绊绊。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://www.anowbc.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="个人日记" scheme="http://www.anowbc.com/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的音乐</title>
+    <link href="http://www.anowbc.com/2019/07/07/wo-de-yin-le/"/>
+    <id>http://www.anowbc.com/2019/07/07/wo-de-yin-le/</id>
+    <published>2019-07-07T13:21:08.000Z</published>
+    <updated>2020-08-09T07:42:01.527Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt; //外链生成&lt;/p&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;500&quot; height=&quot;300&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="音乐" scheme="http://www.anowbc.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于Github和Hexo的个人博客搭建心得</title>
+    <link href="http://www.anowbc.com/2019/07/07/ji-yu-github-he-hexo-de-ge-ren-bo-ke-da-jian-xin-de/"/>
+    <id>http://www.anowbc.com/2019/07/07/ji-yu-github-he-hexo-de-ge-ren-bo-ke-da-jian-xin-de/</id>
+    <published>2019-07-07T02:31:57.000Z</published>
+    <updated>2020-08-09T07:42:01.524Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;| 仅以此来说明自己开发个人博客的心路历程以及所获所得&lt;/p&gt;
+&lt;p&gt;​     | 行在路上，你依旧是少年，要么不做，要做，就做行动派&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;By-2019-年&quot;&gt;&lt;a href=&quot;#By-2019-年&quot; class=&quot;headerlink&quot; title=&quot;By_2019 年&quot;&gt;&lt;/a&gt;By_2019 年&lt;/h2&gt;&lt;h3 id=&quot;7-5&quot;&gt;&lt;a href=&quot;#7-5&quot; class=&quot;headerlink&quot; title=&quot;7.5&quot;&gt;&lt;/a&gt;7.5&lt;/h3&gt;&lt;p&gt;  闲来无事，就很想开启自己思考了很久的个人博客计划。想自己搭建一个网站写博客，并从中学习点什么，或许这样对我来说，比成天得游戏更有意义一些（虽说都是玩跟瞎鼓捣，但是还是想体验一把，做个行动派，并从中发现学习的乐趣。） &lt;/p&gt;
+&lt;p&gt;  于是，我先从先前了解的hexo—一个博客搭建的框架。可能也是很巧合，安装hexo所需要的框架，node.js与git 我都有。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的目标是：建立一个可交互的，有独特界面风格，能引入流量的有内涵的个人博客。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;  当然，首先你得搭一个框架出来。说来惭愧，本科生学了这么多年，真正有意义的事却没有做成多少，而我希望，这是一件值得做的事情，并坚持下去，就是这么简单。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://www.anowbc.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="技术心得" scheme="http://www.anowbc.com/tags/%E6%8A%80%E6%9C%AF%E5%BF%83%E5%BE%97/"/>
     
   </entry>
   

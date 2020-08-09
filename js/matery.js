@@ -105,6 +105,10 @@ $(function () {
             // 启用字幕
             subHtmlSelectorRelative: true
         });
+        
+$(document).find('img[data-original]').each(function(){
+    $(this).parent().attr("href", $(this).attr("data-original"));
+});  //懒加载解决gallery冲突
 
         // progress bar init
         const progressElement = window.document.querySelector('.progress-bar');
