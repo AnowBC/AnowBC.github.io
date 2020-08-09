@@ -18,8 +18,8 @@
   
   <entry>
     <title>搭建网站的随想随记</title>
-    <link href="http://www.anowbc.com/2020/08/06/da-jian-wang-zhan-de-sui-xiang-sui-ji/"/>
-    <id>http://www.anowbc.com/2020/08/06/da-jian-wang-zhan-de-sui-xiang-sui-ji/</id>
+    <link href="http://www.anowbc.com/posts/65311.html"/>
+    <id>http://www.anowbc.com/posts/65311.html</id>
     <published>2020-08-06T11:14:50.000Z</published>
     <updated>2020-08-09T07:43:12.752Z</updated>
     
@@ -47,8 +47,8 @@
   
   <entry>
     <title>腾讯云COS＋CDN优化部署静态网站</title>
-    <link href="http://www.anowbc.com/2020/08/06/teng-xun-yun-cos-cdn-you-hua-bu-shu-jing-tai-wang-zhan/"/>
-    <id>http://www.anowbc.com/2020/08/06/teng-xun-yun-cos-cdn-you-hua-bu-shu-jing-tai-wang-zhan/</id>
+    <link href="http://www.anowbc.com/posts/59280.html"/>
+    <id>http://www.anowbc.com/posts/59280.html</id>
     <published>2020-08-06T08:42:43.000Z</published>
     <updated>2020-08-09T07:52:56.358Z</updated>
     
@@ -73,8 +73,8 @@
   
   <entry>
     <title>Hexo网站基于Nginx部署至VPS教程</title>
-    <link href="http://www.anowbc.com/2019/07/12/vps-jiao-cheng/"/>
-    <id>http://www.anowbc.com/2019/07/12/vps-jiao-cheng/</id>
+    <link href="http://www.anowbc.com/posts/40991.html"/>
+    <id>http://www.anowbc.com/posts/40991.html</id>
     <published>2019-07-12T10:41:22.000Z</published>
     <updated>2020-08-09T07:42:01.522Z</updated>
     
@@ -121,8 +121,8 @@ export PATH=$NODE_HOME/bin:$PATH&lt;/code&gt;&lt;/pre&gt;
   
   <entry>
     <title>Linux命令行</title>
-    <link href="http://www.anowbc.com/2019/07/12/linux/"/>
-    <id>http://www.anowbc.com/2019/07/12/linux/</id>
+    <link href="http://www.anowbc.com/posts/36859.html"/>
+    <id>http://www.anowbc.com/posts/36859.html</id>
     <published>2019-07-12T10:38:52.000Z</published>
     <updated>2020-08-09T07:42:01.521Z</updated>
     
@@ -156,8 +156,8 @@ export PATH=$NODE_HOME/bin:$PATH&lt;/code&gt;&lt;/pre&gt;
   
   <entry>
     <title>从0到1的旅程</title>
-    <link href="http://www.anowbc.com/2019/07/10/cong-0-dao-1-de-lu-cheng/"/>
-    <id>http://www.anowbc.com/2019/07/10/cong-0-dao-1-de-lu-cheng/</id>
+    <link href="http://www.anowbc.com/posts/30198.html"/>
+    <id>http://www.anowbc.com/posts/30198.html</id>
     <published>2019-07-10T12:10:57.000Z</published>
     <updated>2020-08-09T07:42:01.523Z</updated>
     
@@ -179,35 +179,9 @@ export PATH=$NODE_HOME/bin:$PATH&lt;/code&gt;&lt;/pre&gt;
   </entry>
   
   <entry>
-    <title>我的音乐</title>
-    <link href="http://www.anowbc.com/2019/07/07/wo-de-yin-le/"/>
-    <id>http://www.anowbc.com/2019/07/07/wo-de-yin-le/</id>
-    <published>2019-07-07T13:21:08.000Z</published>
-    <updated>2020-08-09T07:42:01.527Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt; //外链生成&lt;/p&gt;
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;500&quot; height=&quot;300&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="音乐" scheme="http://www.anowbc.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
     <title>基于Github和Hexo的个人博客搭建心得</title>
-    <link href="http://www.anowbc.com/2019/07/07/ji-yu-github-he-hexo-de-ge-ren-bo-ke-da-jian-xin-de/"/>
-    <id>http://www.anowbc.com/2019/07/07/ji-yu-github-he-hexo-de-ge-ren-bo-ke-da-jian-xin-de/</id>
+    <link href="http://www.anowbc.com/posts/53516.html"/>
+    <id>http://www.anowbc.com/posts/53516.html</id>
     <published>2019-07-07T02:31:57.000Z</published>
     <updated>2020-08-09T07:42:01.524Z</updated>
     
