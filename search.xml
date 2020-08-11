@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>test math</title>
+      <link href="/posts/15667.html"/>
+      <url>/posts/15667.html</url>
+      
+        <content type="html"><![CDATA[<p>$y = f(x)$<br>\[y = {f_{ {g_1}}}(x)\]</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试demo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+            <tag> 函数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭建网站的随想随记</title>
       <link href="/posts/65311.html"/>
       <url>/posts/65311.html</url>

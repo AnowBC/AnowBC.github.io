@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.anowbc.com/"/>
-  <updated>2020-08-09T07:43:12.752Z</updated>
+  <updated>2020-08-11T08:00:55.473Z</updated>
   <id>http://www.anowbc.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test math</title>
+    <link href="http://www.anowbc.com/posts/15667.html"/>
+    <id>http://www.anowbc.com/posts/15667.html</id>
+    <published>2020-08-11T07:30:53.000Z</published>
+    <updated>2020-08-11T08:00:55.473Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;$y = f(x)$&lt;br&gt;\[y = {f_{ {g_1}}}(x)\]&lt;/p&gt;
+&lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="测试demo" scheme="http://www.anowbc.com/categories/%E6%B5%8B%E8%AF%95demo/"/>
+    
+    
+      <category term="测试" scheme="http://www.anowbc.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="函数" scheme="http://www.anowbc.com/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>搭建网站的随想随记</title>
