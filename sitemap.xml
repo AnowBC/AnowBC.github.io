@@ -130,6 +130,13 @@
 
   
   <url>
+    <loc>http://www.anowbc.com/tags/Linux/</loc>
+    <lastmod>2020-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.anowbc.com/tags/%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2020-08-11</lastmod>
     <changefreq>daily</changefreq>
@@ -150,14 +157,14 @@
     <priority>0.6</priority>
   </url>
   
+
+  
   <url>
-    <loc>http://www.anowbc.com/tags/Linux/</loc>
+    <loc>http://www.anowbc.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2020-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
-  
-
   
   <url>
     <loc>http://www.anowbc.com/categories/%E7%BD%91%E7%AB%99/</loc>
@@ -168,13 +175,6 @@
   
   <url>
     <loc>http://www.anowbc.com/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2020-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.anowbc.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2020-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
